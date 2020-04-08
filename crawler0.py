@@ -8,3 +8,6 @@ schoollist=data["result"]["results"]
 with open("school.txt", mode="w", encoding="utf-8") as file:
     for school in schoollist:
         file.write(school["school_name"]+": "+school["address"]+"\n")
+
+
+# 20200408 changed
